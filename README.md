@@ -22,7 +22,7 @@ If you have a suggestion to improve an exercise, an idea for a new exercise, or 
 
    To complete an exercise, you'll need to go to the exercise directory with `cd exerciseName` in the terminal and run `npm test exerciseName.spec.js`. This should run the test file and show you the output. When you first run a test, it will fail. This is by design! You must open the exercise file and write the code needed to get the test to pass.
 
-4. Some of the exercises have test conditions defined in their spec file as `test.skip` compared to `test`. This is purposeful. After you pass one `test`, you will change the next `test.skip` to `test` and test your code again. You'll do this until all conditions are satisfied. **All tests must pass at the same time**, and you should not have any `test.skip` instances by the time you finish an exercise.
+4. Some of the exercises have test conditions defined in their spec file as `test` compared to `test`. This is purposeful. After you pass one `test`, you will change the next `test` to `test` and test your code again. You'll do this until all conditions are satisfied. **All tests must pass at the same time**, and you should not have any `test` instances by the time you finish an exercise.
 5. Once you successfully finish an exercise, check the `solutions` directory within each exercise to compare it with yours.
    - You should not be checking the solution for an exercise until you finish it!
    - Keep in mind that TOP's solution is not the only solution. Generally as long as all of the tests pass, your solution should be fine.
